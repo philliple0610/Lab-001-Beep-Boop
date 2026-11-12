@@ -1,6 +1,6 @@
 module displayEncoder(
     input [19:0] result,
-    output logic [3:0] numberBits [0:3]
+    output logic [3:0] numberBits [3:0]
 );
 
     always_comb begin
